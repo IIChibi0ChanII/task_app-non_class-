@@ -1,0 +1,115 @@
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(50, 49, 49);
+  position: relative;
+}
+h1 {
+  font-size: 70px;
+  color: rgb(198, 198, 198);
+  text-shadow: 5px 5px 5px black;
+  font-family: cursive;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(80, 79, 77);
+  box-shadow: 10px 10px 10px black;
+  border-radius: 17px;
+}
+
+input {
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: #5c5c5c;
+  width: 600px;
+  border: solid black 1px;
+  color: white;
+  height: 30px;
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+input::placeholder {
+  color: rgb(214, 214, 214);
+}
+
+#addTask {
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: monospace;
+  background-color: #8b8b8b;
+  border: solid black 2px;
+  border-radius: 50px;
+}
+
+#addTask:hover {
+  background-color: rgb(109, 109, 109);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5c5a5a;
+  font-size: 25px;
+  margin-top: 5px;
+  padding: 10px;
+  color: rgb(255, 252, 240);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 13px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+li:hover {
+  background-color: #7c7c7c;
+}
+
+.delete {
+  background: rgb(70, 70, 70);
+  color: white;
+  border: solid 1px black;
+  cursor: pointer;
+  font-size: 20px;
+  height: 40px;
+  width: 80px;
+  border-radius: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.delete:hover {
+  background-color: rgb(39, 37, 37);
+}
+#homeButton {
+  height: 50px;
+  width: 250px;
+  position: absolute;
+  right: 1050px;
+  top: 30px;
+  font-size: 17px;
+  border-radius: 40px;
+  background-color: #676767;
+  font-family: monospace;
+  font-weight: 900;
+  border: 2px solid black;
+  cursor: pointer;
+}
+#homeButton:hover {
+  background-color: rgb(127, 127, 127);
+}
